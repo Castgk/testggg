@@ -1,0 +1,19 @@
+[
+  { "set": ["#0080DF", "#00CDE9"], "gradientOnly": true },
+  { "set": ["#4B4453", "#CCCCCC"], "gradientOnly": false},
+  { "set": ["#022ADD", "#DCE5FC"], "gradientOnly": true },
+  { "set": ["#5C4A8E", "#C0B3EC"], "gradientOnly": true },
+  { "set": ["#FFE000", "#000001"], "gradientOnly": false },
+  { "set": ["#09ADA8", "#00928B"], "gradientOnly": true },
+  { "set": ["#0AA84C", "#5DCC5A"], "gradientOnly": true },
+  { "set": ["#ED001C", "#F69F16"], "gradientOnly": true },
+  { "set": ["#0145C0", "#FFFFFF"], "gradientOnly": true },
+  { "set": ["#0145C0", "#7994FF"], "gradientOnly": false },
+  { "set": ["#1DCEFA", "#22D0B5"], "gradientOnly": false },
+  { "set": ["#F65D75", "#FBD48E"], "gradientOnly": true },
+  { "set": ["#8378D6", "#E08BA2"], "gradientOnly": true },
+  { "set": ["#74B758", "#16361F"], "gradientOnly": false },
+  { "set": ["#EC3E59", "#F2C237"], "gradientOnly": false },
+  { "set": ["#3B777F", "#5BA196"], "gradientOnly": true }
+]
+

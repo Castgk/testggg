@@ -1,0 +1,16 @@
+{
+  "name": "logo-builder",
+  "version": "0.1.0",
+  "repository": "https://sjuksin@bitbucket.org/sjuksin/logo-builder.git",
+  "author": "Dmitry Sjuksin <sjuksin@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "kd-tree-javascript": "^1.0.3",
+    "text-to-svg": "^3.1.5"
+  }
+}
