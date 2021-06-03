@@ -13,7 +13,6 @@
               class="form-control"
               placeholder="Имя вашей компании"
               v-model="model"
-              @keydown="nameKeydown($event)"
           />
         </div>
         <div class=" col-auto">
@@ -56,17 +55,11 @@ export default {
     }
   },
 
-  methods: {
-    nameKeydown(e) {
-      // Фильтруем вводимое значение от недопустимых символов
-      // if (/[^A-Z]/g.test(e.key)) {
-      if (/[^A-Za-z0-9 ,.!?:;"'\\(){}[\]\-_=^&@%*$~|]/g.test(e.key)) {
-        e.preventDefault();
-      }
+  watch: {
+    model(newVal) {
+      this.$set(this, 'model', newVal.replace(/[^A-Za-z0-9 ,.!?:;"'\\(){}[\]\-_=^&@%*$~|]+/g, ''));
     }
-  },
-
-  created () {}
+  }
 }
 </script>
 
