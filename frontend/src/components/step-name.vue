@@ -11,7 +11,7 @@
           <input
               type="text"
               class="form-control"
-              placeholder="Имя вашей компании"
+              placeholder="Название (латиница)"
               v-model="model"
           />
         </div>

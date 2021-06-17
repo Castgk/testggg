@@ -7,7 +7,7 @@
       <input
           type="text"
           class="search-input form-control mb-2 mb-md-4"
-          placeholder="Воспользуйтесь поиском по иконкам:"
+          placeholder="Поиск по иконкам (латиница):"
           v-model="searchString"
       />
     </div>
@@ -91,6 +91,17 @@ export default {
         this.model.splice(iconSelectIndex, 1)
       }
     }
+  },
+
+  updated() {
+    console.log('updated')
+    document.querySelectorAll('.icon-wrapper svg')
+        .forEach(el => {
+          console.log('u')
+      el.setAttribute('width', '60px')
+      el.setAttribute('height', '60px')
+    })
+    //  Костыль. Добавляем всем svg атрибут
   },
 
   mounted() {
